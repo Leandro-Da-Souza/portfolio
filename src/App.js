@@ -1,11 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container }  from './components/Container';
+import { Sidebar }  from './components/Sidebar';
+import { LogoContainer, LogoBrandContainer, LogoBrand, LogoText } from './components/Logo';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+      <Container>
+        <Sidebar>
+          <LogoContainer>
+            <LogoBrandContainer>
+              <LogoBrand>L</LogoBrand>
+            </LogoBrandContainer>
+            <LogoText>Leandro Da Souza</LogoText>
+          </LogoContainer>
+        </Sidebar>
+      </Container>
   );
 }
 
