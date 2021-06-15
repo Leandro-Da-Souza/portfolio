@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { globalColors } from '../constants/contants'
-import { LogoContainer, LogoBrandContainer, LogoBrand, LogoText } from './Logo';
 
 export const Sidebar = styled.section`
     width: 25vw;
