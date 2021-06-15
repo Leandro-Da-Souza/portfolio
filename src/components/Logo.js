@@ -11,6 +11,7 @@ export const LogoContainer = styled.div`
     justify-content: center;
     align-items: center;
     background-color: ${globalColors.white};
+    box-shadow: 0 4px 4px 0 rgba(0,0,0, 0.4);
 `
 
 export const LogoBrandContainer = styled.div`
@@ -21,6 +22,7 @@ export const LogoBrandContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0, 0.4);
 `
 
 export const LogoBrand = styled.h2`
@@ -34,6 +36,7 @@ export const LogoText = styled.p`
     font-family: 'Monoton', cursive;
     text-align: center;
     margin-top: 0.5rem;
+    font-size: 1.1rem;
 `
 
 
