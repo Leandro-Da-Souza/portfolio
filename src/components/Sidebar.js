@@ -5,6 +5,7 @@ export const Sidebar = styled.section`
     width: 25vw;
     height: 100vh;
     position: sticky;
+    top: 0;
     background: rgb(251,251,251);
     display: flex;
     flex-direction: column;

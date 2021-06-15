@@ -36,7 +36,7 @@ export const LogoText = styled.p`
     font-family: 'Monoton', cursive;
     text-align: center;
     margin-top: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.12rem;
     letter-spacing: 0.5px;
 `
 

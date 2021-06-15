@@ -3,7 +3,8 @@ import Image from '../static/bg.jpg'
 
 export const Container = styled.div`
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    overflow: scroll;
     background-image: url(${Image});
     background-size: cover;
     background-repeat: no-repeat;
