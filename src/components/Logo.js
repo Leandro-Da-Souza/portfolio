@@ -12,6 +12,7 @@ export const LogoContainer = styled.div`
     align-items: center;
     background-color: ${globalColors.white};
     box-shadow: 0 4px 4px 0 rgba(0,0,0, 0.4);
+    border-radius: 1%;
 `
 
 export const LogoBrandContainer = styled.div`
@@ -23,6 +24,7 @@ export const LogoBrandContainer = styled.div`
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 4px 0 rgba(0,0,0, 0.4);
+    border-radius: 2%;
 `
 
 export const LogoBrand = styled.h2`

@@ -20,7 +20,7 @@ export const Container = styled.div`
         width: 100%;
         height: 100%;
         background-color: #000;
-        opacity: .5;
+        opacity: .4;
         z-index: 1;
     }
 `;

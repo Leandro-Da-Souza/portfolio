@@ -6,6 +6,9 @@ export const Link = styled.a`
     font-size: 1.9rem;
     height: 100%;
     :hover {
-        color: ${globalColors.white}
+        color: ${globalColors.white};
+        &::after {
+            content: '  \u2190;'
+        }
     }
 `
