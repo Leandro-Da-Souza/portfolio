@@ -11,5 +11,6 @@ export const Sidebar = styled.section`
     flex-direction: column;
     font-family: 'Monoton';
     background: ${globalColors.gradient};
-    z-index: 2
+    z-index: 2;
+    box-shadow: inset 0 4px 4px 0 rgba(0,0,0, 0.4);
 `

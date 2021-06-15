@@ -3,9 +3,10 @@ import { globalColors } from '../constants/contants';
 
 export const HeaderText = styled.h1`
     color: ${globalColors.white};
-    margin-bottom: 1rem;
+    margin-bottom: 1.12rem;
     z-index: 2;
     font-size: 1.1rem;
+    text-align: center
 `
 
 export const InlineText = styled.span`
@@ -14,5 +15,8 @@ export const InlineText = styled.span`
 
 export const ParagraphText = styled.p`
     color: ${props => props.color ? globalColors[props.color] : globalColors.red};
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.4;
 `
 
