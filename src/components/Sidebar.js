@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { globalColors } from '../constants/contants'
+import { LogoContainer, LogoBrandContainer, LogoBrand, LogoText } from './Logo';
 
 export const Sidebar = styled.section`
     width: 25vw;
@@ -10,5 +11,5 @@ export const Sidebar = styled.section`
     flex-direction: column;
     font-family: 'Monoton';
     background: ${globalColors.gradient};
-    z-index: 1
+    z-index: 2
 `

@@ -8,6 +8,9 @@ export const Container = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    mix-blend-mode: hue;
+    display: grid;
+    grid-template-columns: 25vw 75vw;
     &::after {
         content: "";
         position: absolute;
@@ -17,5 +20,6 @@ export const Container = styled.div`
         height: 100%;
         background-color: #000;
         opacity: .5;
+        z-index: 1;
     }
 `;

@@ -1,18 +1,12 @@
 import { Container }  from './components/Container';
-import { Sidebar }  from './components/Sidebar';
-import { LogoContainer, LogoBrandContainer, LogoBrand, LogoText } from './components/Logo';
+import Nav from './layout/Nav';
+import Landing from './layout/Landing';
 
 function App() {
   return (
       <Container>
-        <Sidebar>
-          <LogoContainer>
-            <LogoBrandContainer>
-              <LogoBrand>L</LogoBrand>
-            </LogoBrandContainer>
-            <LogoText>Leandro Da Souza</LogoText>
-          </LogoContainer>
-        </Sidebar>
+        <Nav/>
+        <Landing/>
       </Container>
   );
 }
