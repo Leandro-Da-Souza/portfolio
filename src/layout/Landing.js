@@ -1,6 +1,7 @@
 import React from 'react'
 import { HeaderText, InlineText, ParagraphText } from '../components/HeaderText'
 import About from './About';
+import Portfolio from './Portfolio';
 
 const Landing = () => {
     return (
@@ -26,6 +27,7 @@ const Landing = () => {
                 <ParagraphText color="white">Currently looking for work!</ParagraphText>
             </div>
             <About/>
+            <Portfolio/>
         </div>
     )
 }
