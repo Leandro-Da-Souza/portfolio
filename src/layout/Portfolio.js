@@ -1,7 +1,11 @@
 import React from 'react'
 import { HeaderText, ParagraphText, InlineText } from '../components/HeaderText'
+import { useFetchGithub } from '../hooks/useFetchGithub'
 
 const Portfolio = () => {
+    const repo = useFetchGithub('https://api.github.com/repos/Leandro-Da-Souza/Examensarbete');
+    
+    console.log(repo)
     return (
         <div id="portfolio" style={{height: '100%', paddingTop: '20%'}}>
             <HeaderText><InlineText>Port</InlineText>folio</HeaderText>
