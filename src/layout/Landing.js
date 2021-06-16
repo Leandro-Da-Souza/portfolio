@@ -21,7 +21,7 @@ const Landing = () => {
             }}>
                 <HeaderText>Hi! I'm 
                     <InlineText> Leandro Da Souza </InlineText> 
-                    and i am a front-end developer!
+                    and I am a front-end developer!
                 </HeaderText>
                 <ParagraphText color="white">Currently looking for work!</ParagraphText>
             </div>
