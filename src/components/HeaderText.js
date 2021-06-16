@@ -11,6 +11,7 @@ export const HeaderText = styled.h1`
 
 export const InlineText = styled.span`
     color: ${props => props.color ? globalColors[props.color] : globalColors.red};
+    z-index: 2;
 `
 
 export const ParagraphText = styled.p`
@@ -18,5 +19,6 @@ export const ParagraphText = styled.p`
     margin-left: 5%;
     margin-right: 5%;
     line-height: 1.4;
+    z-index: 2;
 `
 

@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
 
-export const useFetchGithub = (url) => {
-    const [repo, setRepo] = useState('');
+export const useFetch = (url) => {
+    const [res, setRes] = useState('');
     const [error, setError] = useState('');
+
     const fetchRepo = async (link) => {
         try {
             let res = await fetch(`${link}`);
             let data = await res.json()
-            setRepo(data)
+            setRes(data)
         } catch(e) {
             setError(e)
         }
@@ -15,10 +16,10 @@ export const useFetchGithub = (url) => {
 
     useEffect(() => {
         fetchRepo(url)
-    }, [])
+    }, [url])
    
-    if(repo) {
-        return repo
+    if(res) {
+        return res
     } else {
         return error
     }
