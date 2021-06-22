@@ -12,4 +12,7 @@ export const Link = styled.a`
             color: ${globalColors.white};
         }
     }
+    @media (max-width: 768px) {
+        font-size: 0.7rem;
+    }
 `

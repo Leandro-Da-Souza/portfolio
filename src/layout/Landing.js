@@ -5,6 +5,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import '../styles/home.css'
 
 const Landing = () => {
     AOS.init();
@@ -13,7 +14,7 @@ const Landing = () => {
         <div className="landing-page" 
             style={{
             zIndex:2, 
-            height: '100%'
+            // height: '100%'
             }}>
             <div 
                 id="home"
@@ -23,8 +24,9 @@ const Landing = () => {
                     flexDirection: 'column',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    height: '50%'
-            }}>
+                    height: '50%'}}
+                className="home-container"
+                >
                 <HeaderText>Hi! I'm 
                     <InlineText> Leandro Da Souza </InlineText> 
                     and I am a front-end developer!

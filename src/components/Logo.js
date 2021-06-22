@@ -13,6 +13,10 @@ export const LogoContainer = styled.div`
     background-color: ${globalColors.white};
     box-shadow: 0 4px 4px 0 rgba(0,0,0, 0.4);
     border-radius: 1%;
+    @media (max-width: 768px) {
+        width: 3.75rem;
+        height: 3.5rem;
+    }
 `
 
 export const LogoBrandContainer = styled.div`
@@ -25,6 +29,10 @@ export const LogoBrandContainer = styled.div`
     align-items: center;
     box-shadow: 0 4px 4px 0 rgba(0,0,0, 0.4);
     border-radius: 2%;
+    @media (max-width: 768px) {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
 `
 
 export const LogoBrand = styled.h2`
@@ -32,6 +40,9 @@ export const LogoBrand = styled.h2`
     font-size: 8rem;
     color: ${globalColors.white};
     font-stretch: ultra-expanded;
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 `;
 
 export const LogoText = styled.p`
@@ -40,6 +51,9 @@ export const LogoText = styled.p`
     margin-top: 0.5rem;
     font-size: 1.15rem;
     letter-spacing: 0.5px;
+    @media (max-width: 768px){
+        display: none;
+    }
 `
 
 

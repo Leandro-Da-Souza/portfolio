@@ -13,4 +13,7 @@ export const Sidebar = styled.section`
     background: ${globalColors.gradient};
     z-index: 2;
     box-shadow: inset 0 4px 4px 0 rgba(0,0,0, 0.4);
+    @media (max-width: 768px) {
+        display: none;
+    }
 `

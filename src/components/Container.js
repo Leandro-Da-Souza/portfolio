@@ -27,4 +27,9 @@ export const Container = styled.div`
         mix-blend-mode: darken;
         scrollbar-track-color: #006cb4;
     }
+    @media (max-width: 768px) {
+        display: grid;
+        grid-template-row: 10vh 90vh;
+        grid-template-columns: 100vw;
+    }
 `;
