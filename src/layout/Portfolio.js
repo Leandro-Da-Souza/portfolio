@@ -16,7 +16,7 @@ const Portfolio = () => {
     }
 
     return (
-        <div id="portfolio" style={{height: '80%', paddingTop: '3%'}}>
+        <div id="portfolio" style={{height: '60%', paddingTop: '3%'}}>
             <HeaderText>Portfolio</HeaderText>
             <ParagraphText color="white">A selection from my <a href="https://github.com/Leandro-Da-Souza/" target="_blank" rel="noreferrer" style={{color: `${globalColors.red}`}}>Github</a> page, for more please visit the link!</ParagraphText>
             <RefContainer style={{paddingTop: '5%'}}>

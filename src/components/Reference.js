@@ -23,6 +23,9 @@ export const RefImage1 = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    &:hover {
+        cursor: pointer;
+    }
 `
 export const RefImage2 = styled.div`
     width: 100px;
@@ -33,6 +36,9 @@ export const RefImage2 = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    &:hover {
+        cursor: pointer;
+    }
 `
 export const RefImage3 = styled.div`
     width: 100px;
@@ -43,6 +49,9 @@ export const RefImage3 = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    &:hover {
+        cursor: pointer;
+    }
 `
 
 export const RefInfo = styled.div`

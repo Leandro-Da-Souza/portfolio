@@ -18,7 +18,7 @@ const Landing = () => {
                     flexDirection: 'column',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    height: '70%'
+                    height: '50%'
             }}>
                 <HeaderText>Hi! I'm 
                     <InlineText> Leandro Da Souza </InlineText> 
