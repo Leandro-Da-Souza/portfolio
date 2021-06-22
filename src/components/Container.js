@@ -3,7 +3,7 @@ import Image from '../static/bg.jpg'
 
 export const Container = styled.div`
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     overflow: scroll;
     background-image: url(${Image});
     background-size: cover;
@@ -20,7 +20,8 @@ export const Container = styled.div`
         width: 100%;
         height: 100%;
         background-color: #000;
-        opacity: .4;
+        opacity: .5;
         z-index: 1;
+        mix-blend-mode: darken;
     }
 `;
