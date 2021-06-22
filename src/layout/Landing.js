@@ -8,7 +8,6 @@ const Landing = () => {
         <div className="landing-page" 
             style={{
             zIndex:2, 
-            mixBlendMode: 'lighten',
             height: '100%'
             }}>
             <div 
@@ -18,7 +17,7 @@ const Landing = () => {
                     flexDirection: 'column',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    height: '100%'
+                    height: '80%'
             }}>
                 <HeaderText>Hi! I'm 
                     <InlineText> Leandro Da Souza </InlineText> 
