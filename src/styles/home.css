@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+    .home-container {
+        /* background-color: blue; */
+        height: 50vh;
+        padding-bottom: 80%;
+    }
+}
