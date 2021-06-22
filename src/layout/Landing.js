@@ -3,8 +3,12 @@ import { HeaderText, InlineText, ParagraphText } from '../components/HeaderText'
 import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Landing = () => {
+    AOS.init();
+
     return (
         <div className="landing-page" 
             style={{
@@ -13,6 +17,7 @@ const Landing = () => {
             }}>
             <div 
                 id="home"
+                data-aos="zoom-in-right"
                 style={{
                     display: 'flex',
                     flexDirection: 'column',
@@ -26,9 +31,9 @@ const Landing = () => {
                 </HeaderText>
                 <ParagraphText color="white">Currently looking for work!</ParagraphText>
             </div>
-            <About/>
-            <Portfolio/>
-            <Contact/>
+            <About />
+            <Portfolio />
+            <Contact />
         </div>
     )
 }

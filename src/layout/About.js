@@ -5,8 +5,8 @@ import { SiCss3, SiHtml5, SiJavascript } from 'react-icons/si'
 import { globalColors } from '../constants/contants';
 
 
+
 const About = () => {
-    
     return (
         <div id="about" style={{height: '70%', paddingTop: '10%'}}>
             <HeaderText>A little bit about <InlineText>me.</InlineText></HeaderText>

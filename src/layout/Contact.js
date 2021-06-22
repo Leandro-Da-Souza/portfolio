@@ -1,4 +1,3 @@
-import { getByDisplayValue } from '@testing-library/react';
 import React from 'react'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { HeaderText } from '../components/HeaderText';
