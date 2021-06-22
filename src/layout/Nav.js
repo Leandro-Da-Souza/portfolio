@@ -32,7 +32,7 @@ const Nav = () => {
             <Link onClick={() => scrollToPage('home')} style={addActiveClass('home')}>Home</Link>
             <Link onClick={() => scrollToPage('about')} style={addActiveClass('about')}>About</Link>
             <Link onClick={() => scrollToPage('portfolio')} style={addActiveClass('portfolio')}>Portfolio</Link>
-            <Link>Contact</Link>
+            <Link onClick={() => scrollToPage('contact')} style={addActiveClass('contact')}>Contact</Link>
           </Column>
         </Sidebar>
     )

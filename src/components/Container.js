@@ -5,6 +5,7 @@ export const Container = styled.div`
     width: 100vw;
     height: 100vh;
     overflow: scroll;
+    scrollbar-track-color: #006cb4;
     background-image: url(${Image});
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,6 +23,8 @@ export const Container = styled.div`
         background-color: #000;
         opacity: .5;
         z-index: 1;
+        scrollbar-color: white;
         mix-blend-mode: darken;
+        scrollbar-track-color: #006cb4;
     }
 `;

@@ -2,6 +2,7 @@ import React from 'react'
 import { HeaderText, InlineText, ParagraphText } from '../components/HeaderText'
 import About from './About';
 import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 const Landing = () => {
     return (
@@ -17,7 +18,7 @@ const Landing = () => {
                     flexDirection: 'column',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    height: '80%'
+                    height: '70%'
             }}>
                 <HeaderText>Hi! I'm 
                     <InlineText> Leandro Da Souza </InlineText> 
@@ -27,6 +28,7 @@ const Landing = () => {
             </div>
             <About/>
             <Portfolio/>
+            <Contact/>
         </div>
     )
 }

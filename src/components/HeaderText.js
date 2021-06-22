@@ -6,7 +6,8 @@ export const HeaderText = styled.h1`
     margin-bottom: 1.12rem;
     z-index: 2;
     font-size: 1.1rem;
-    text-align: center
+    text-align: center;
+    line-height: 1.4rem;
 `
 
 export const InlineText = styled.span`
